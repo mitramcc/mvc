@@ -1,0 +1,40 @@
+<?php
+
+//http
+define("BASE_URL", "//localhost/");
+define("PUBLIC_URL", BASE_URL."public/");
+define("IMAGES_URL", PUBLIC_URL."img/");
+
+//c:
+define("ROOT", $_SERVER['DOCUMENT_ROOT']."/");
+define("IMAGES_PATH", ROOT."public/imgs/");
+
+define("MYSQL_HOST", "localhost");
+define("MYSQL_NAME", "databasename");
+define("MYSQL_USER", "root");
+define("MYSQL_PASS", "");
+
+//MSSQL 61835
+define("MSSQL_HOST", "IP:port");
+define("MSSQL_NAME", "db_name");
+define("MSSQL_USER", "db_user");
+define("MSSQL_PASS", "****");
+define("MSSQL_DRIVER", "dblib/sqlsrv");
+
+define("SMTP_HOST", "smtp.gmail.com");
+define("SMTP_SECURITY", "ssl");
+define("SMTP_PORT", 465);                    // set the SMTP port for thP port for the GMAIL server
+define("MAIL_USERNAME", "user");
+define("MAIL_PASSWORD", "passwd");
+define("FROM_MAIL", "geral@pneuscruzeiro.com.pt");
+define("FROM_NAME", "Pneus Cruzeiro");
+define("REPLY_TO_MAIL", "no-reply@pneuscruzeiro.com.pt");
+define("REPLY_TO_NAME", "no-reply");
+
+define("SEND_TO_MAIL", "mitramcc@gmail.com");
+#define("SEND_TO_MAIL", "geral@pneuscruzeiro.com");
+
+define("USER_LEVEL", 1);
+define("ADMIN_LEVEL", 77);
+
+?>

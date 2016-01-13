@@ -1,0 +1,32 @@
+User-Agent: *
+Disallow: /
+
+User-Agent: Googlebot
+Allow: /
+
+User-Agent: Googlebot-Mobile
+Allow: /
+
+User-Agent: Googlebot-Image
+Allow: /
+
+User-Agent: Mediapartners-Google
+Allow: /
+
+User-Agent: Adsbot-Google
+Allow: /
+
+User-Agent: Slurp
+Allow: /
+
+User-Agent: msnbot
+Allow: /
+
+User-Agent: msnbot-media
+Allow: /
+
+User-Agent: yahoo-blogs/v3.9
+Allow: /
+
+User-Agent: yahoo-mmcrawler
+Allow: /

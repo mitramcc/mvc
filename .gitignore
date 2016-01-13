@@ -1,0 +1,16 @@
+syntax: glob
+DELETE/*
+logs/*
+*.php_
+*.php__
+*.css_
+*.css__
+*.html_
+*.html__
+*.js_
+*.js__
+configs.php
+.htaccess
+constants.php
+*.sublime-project
+*.sublime-workspace
